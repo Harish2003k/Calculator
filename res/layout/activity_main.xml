@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="140dp"
+        android:layout_height="120"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/etFirstValue"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="@string/enter_first_value"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/etSecondValue"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:hint="@string/enter_second_value" />
+
+    <TextView
+        android:id="@+id/etAns"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#D53617"
+        android:padding="10dp"
+        android:text="@string/plus"
+        android:textColorHighlight="#29E2CC" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#D53617"
+        android:padding="10dp"
+        android:text="@string/substract"
+        android:textColorHighlight="#1D76BC" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#D53617"
+        android:padding="10dp"
+        android:text="@string/multiply"
+        android:textColorHighlight="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#E93512"
+        android:padding="10dp"
+        android:text="@string/divide"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#F44336"
+        android:padding="10dp"
+        android:text="@string/madulus"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+</LinearLayout>

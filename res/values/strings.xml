@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="plus">+</string>
+    <string name="substract">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="madulus">%</string>
+    <string name="enter_second_value">Enter Second Value</string>
+    <string name="enter_first_value">Enter First Value</string>
+</resources>
